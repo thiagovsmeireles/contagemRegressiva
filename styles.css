@@ -176,6 +176,17 @@ body {
   color: #e5e7eb;
 }
 
+.countdown-now {
+  margin-top: 2px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.countdown-now-hint {
+  font-size: 0.72rem;
+  opacity: 0.9;
+}
+
 /* MENSAGEM DO DIA */
 
 .message-section .section-header {
