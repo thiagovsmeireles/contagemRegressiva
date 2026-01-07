@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contagem Regressiva - Thiago & Noemi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page" id="page">
+    <!-- HERO / ABERTURA -->
+    <header class="hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-overtitle">Thiago &amp; <span class="hero-name">Noemi</span></p>
+        <h1 class="hero-title">Nosso encontro já tem data.</h1>
+        <p class="hero-date">26 de janeiro de 2026 &mdash; <span>11h</span></p>
+        <p class="hero-route">Luziânia-GO &rarr; Poá-SP</p>
+        <p class="hero-sub">A gente já é real. Falta só o abraço.</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- CONTAGEM REGRESSIVA -->
+      <section class="section countdown-section" id="countdown-section">
+        <div class="section-header">
+          <h2>Contagem regressiva</h2>
+          <p>Faltam apenas...</p>
+        </div>
+        <div class="countdown-wrapper">
+          <div class="countdown" id="countdown">
+            <div class="time-box">
+              <span class="time-value" id="days">00</span>
+              <span class="time-label">dias</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" id="hours">00</span>
+              <span class="time-label">horas</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" id="minutes">00</span>
+              <span class="time-label">minutos</span>
+            </div>
+            <div class="time-box">
+              <span class="time-value" id="seconds">00</span>
+              <span class="time-label">segundos</span>
+            </div>
+          </div>
+          <p class="countdown-emotional">...para o nosso primeiro abraço.</p>
+        </div>
+      </section>
+
+      <!-- MENSAGEM DO DIA (DINÂMICA) -->
+      <section class="section message-section" id="message-section">
+        <div class="section-header">
+          <h2>Mensagem de hoje</h2>
+          <p id="message-date" class="message-date"></p>
+        </div>
+        <div class="message-card">
+          <p id="daily-message" class="message-text"></p>
+        </div>
+        <div class="messages-archive" id="messages-archive">
+          <!-- Mensagens reveladas ao longo dos dias -->
+        </div>
+      </section>
+
+      <!-- LINHA DO TEMPO DA ESPERA -->
+      <section class="section timeline-section" id="timeline-section">
+        <div class="section-header">
+          <h2>Linha do tempo da espera</h2>
+          <p>Da tela até o abraço.</p>
+        </div>
+        <div class="timeline" id="timeline">
+          <!-- Itens gerados via JavaScript -->
+        </div>
+      </section>
+
+      <!-- A DISTÂNCIA -->
+      <section class="section distance-section" id="distance-section">
+        <div class="section-header">
+          <h2>A distância</h2>
+        </div>
+        <div class="distance-content">
+          <p class="distance-text">A distância sempre existiu. A vontade de estar junto também.</p>
+          <div class="distance-line-wrapper">
+            <span class="city">Luziânia-GO</span>
+            <span class="distance-line" aria-hidden="true"></span>
+            <span class="city">Poá-SP</span>
+          </div>
+          <p class="distance-sub">A distância não separou. Só adiou.</p>
+        </div>
+      </section>
+
+      <!-- MENSAGEM FINAL FIXA -->
+      <section class="section final-message-section" id="final-message-section">
+        <div class="final-message-card">
+          <p class="final-message-text">Tudo isso é só o caminho até você.</p>
+          <p class="final-message-sign">&mdash; Thiago</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
